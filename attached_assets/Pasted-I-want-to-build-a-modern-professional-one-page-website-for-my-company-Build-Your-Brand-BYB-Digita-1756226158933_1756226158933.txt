@@ -1,0 +1,75 @@
+I want to build a modern, professional one-page website for my company Build Your Brand (BYB) Digital). The company helps small businesses grow their online presence by focusing on brand building, trust, and digital solutions (mainly website design, but also other digital support).
+
+Requirements:
+
+Overall style
+
+Clean, minimal, and professional design.
+
+Modern typography, with strong headings and easy-to-read text.
+
+Color palette: shades of blue, white, and grey (symbolizing trust and digital innovation).
+
+Responsive design (works on desktop and mobile).
+
+Sections of the site
+
+Hero Section:
+
+Headline: “Build Your Brand. Build Your Trust.”
+
+Subheadline: “BYB Digital helps small businesses grow with modern websites and digital solutions.”
+
+Call-to-Action button: “Get Started” (scrolls down to Contact section).
+
+About Us Section:
+
+A short description of BYB Digital, emphasizing our focus on small businesses, building brand identity, and trust online.
+
+Services Section:
+
+“Website Design & Development”
+
+“Digital Branding”
+
+“Ongoing Digital Support”
+
+Simple icons or illustrations for each.
+
+Why Choose Us Section:
+
+Focus on affordability, professionalism, and trust.
+
+Maybe 3–4 short points in cards.
+
+Contact Section:
+
+Contact form (Name, Email, Message).
+
+Space for phone number and email.
+
+Navigation bar
+
+Links to Hero, About, Services, Contact.
+
+Sticky at the top.
+
+Footer
+
+Company name + “© 2025 BYB Digital. All rights reserved.”
+
+Social media icons (LinkedIn, Instagram, Facebook placeholders).
+
+Extra
+
+Smooth scrolling between sections.
+
+Light animations (fade-in, hover effects).
+
+Deployment Note (Important)
+
+Please make sure that when I deploy this site as a static page, it always deploys the latest version.
+
+I had an issue before where the preview showed the updated site, but the deployed static version showed an older cached version (with removed pricing options still appearing in nav bar, footer, and buttons).
+
+Ensure the build process clears any cached or older builds before deployment, so the live static site always matches the preview.
