@@ -50,13 +50,15 @@ export default function Footer() {
             </div>
             
             <div className="flex space-x-4">
-              <a 
+             
+              {/*<a 
                 href="#" 
                 className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
                 data-testid="link-social-linkedin"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
+              
               <a 
                 href="#" 
                 className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
@@ -64,13 +66,15 @@ export default function Footer() {
               >
                 <Instagram className="w-5 h-5" />
               </a>
+              
               <a 
                 href="#" 
                 className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
                 data-testid="link-social-facebook"
               >
                 <Facebook className="w-5 h-5" />
-              </a>
+              </a>*/}
+              
             </div>
           </div>
         </div>
