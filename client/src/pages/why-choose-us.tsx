@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { DollarSign, Star, Shield, Rocket, Clock, Users, Award, Heart, ArrowRight } from "lucide-react";
+import { CreditCard, Star, Shield, Rocket, Clock, Users, Award, Heart, ArrowRight } from "lucide-react";
+import SupportImage from "@assets/Support.jpg"
+import ReviewPhoto from "@assets/BOSTUBS.png";
 
 export default function WhyChooseUs() {
   useEffect(() => {
@@ -35,7 +37,7 @@ export default function WhyChooseUs() {
               Why Choose BYB Digital?
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto" data-testid="text-why-hero-subtitle">
-              We combine affordability, professionalism, and trust to deliver exceptional results for small businesses
+              We combine affordability, professionalism, and trust to deliver exceptional results for growing businesses
             </p>
           </div>
         </div>
@@ -48,7 +50,7 @@ export default function WhyChooseUs() {
             {/* Feature 1 */}
             <div className="text-center fade-in" data-testid="card-benefit-affordable">
               <div className="w-20 h-20 bg-gradient-to-br from-primary to-primary-dark rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-                <DollarSign className="w-10 h-10 text-white" />
+                <CreditCard className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-xl font-bold text-grey-dark mb-4" data-testid="text-benefit-title-affordable">Affordable Pricing</h3>
               <p className="text-grey-text leading-relaxed" data-testid="text-benefit-desc-affordable">
@@ -83,7 +85,7 @@ export default function WhyChooseUs() {
               <div className="w-20 h-20 bg-gradient-to-br from-primary to-primary-dark rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                 <Rocket className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-grey-dark mb-4" data-testid="text-benefit-title-fast">Fast Delivery</h3>
+              <h3 className="text-xl font-bold text-grey-dark mb-4" data-testid="text-benefit-title-fast">Fast Turnaround</h3>
               <p className="text-grey-text leading-relaxed" data-testid="text-benefit-desc-fast">
                 Quick turnaround times without compromising on quality or attention to detail.
               </p>
@@ -111,7 +113,7 @@ export default function WhyChooseUs() {
                 <div>
                   <h4 className="font-bold text-grey-dark mb-2" data-testid="text-detailed-benefit-title-turnaround">Fast Turnaround</h4>
                   <p className="text-grey-text" data-testid="text-detailed-benefit-desc-turnaround">
-                    Most projects completed within 2-4 weeks. We understand that time is money for small businesses.
+                    Most projects completed within 1-2 weeks. We understand that time is money for small businesses.
                   </p>
                 </div>
               </div>
@@ -145,9 +147,9 @@ export default function WhyChooseUs() {
                   <Heart className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-grey-dark mb-2" data-testid="text-detailed-benefit-title-passion">Passion for Small Business</h4>
+                  <h4 className="font-bold text-grey-dark mb-2" data-testid="text-detailed-benefit-title-passion">Passion for Growing Business</h4>
                   <p className="text-grey-text" data-testid="text-detailed-benefit-desc-passion">
-                    We genuinely care about helping small businesses succeed and grow in the digital world.
+                    We genuinely care about helping growing businesses succeed and excel in the digital world.
                   </p>
                 </div>
               </div>
@@ -155,7 +157,7 @@ export default function WhyChooseUs() {
 
             <div className="fade-in">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                src={SupportImage}
                 alt="Team collaboration and success" 
                 className="rounded-2xl shadow-2xl w-full h-auto"
                 data-testid="img-team-collaboration"
@@ -172,17 +174,17 @@ export default function WhyChooseUs() {
             <div className="text-center">
               <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=200" 
+                  src={ReviewPhoto} 
                   alt="Professional headshot of satisfied business owner" 
                   className="w-full h-full object-cover"
                   data-testid="img-testimonial-photo-why"
                 />
               </div>
               <blockquote className="text-xl lg:text-2xl text-grey-dark font-medium mb-6 max-w-4xl mx-auto" data-testid="text-testimonial-quote-why">
-                "BYB Digital transformed our online presence completely. Our new website not only looks professional but has increased our customer inquiries by 300%. The team was responsive, professional, and delivered exactly what we needed."
+                "BYB Digital transformed our online presence completely. Our new website not only looks professional but builds trust with our users. The BYB team was responsive, professional, and delivered exactly what we needed. Visit our website to experience the work done by BYB!"
               </blockquote>
-              <div className="text-primary font-semibold" data-testid="text-testimonial-name-why">Sarah Johnson</div>
-              <div className="text-grey-text" data-testid="text-testimonial-title-why">Owner, Local Bakery Co.</div>
+              <div className="text-primary font-semibold" data-testid="text-testimonial-name-why">BosTubs</div>
+              <div className="text-grey-text" data-testid="text-testimonial-title-why">www.Bostubs.co.za</div>
             </div>
           </div>
         </div>
@@ -196,7 +198,7 @@ export default function WhyChooseUs() {
               Ready to Transform Your Business?
             </h2>
             <p className="text-xl text-blue-100 mb-8" data-testid="text-cta-subtitle">
-              Join the growing number of small businesses that trust BYB Digital for their online success.
+              Join the number of growing businesses that trust BYB Digital for their online success.
             </p>
             <Link href="/contact" data-testid="link-cta-contact">
               <Button size="lg" className="bg-white text-primary hover:bg-gray-50 text-lg px-8 py-4 h-auto shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-200">

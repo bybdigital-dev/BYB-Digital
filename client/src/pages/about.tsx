@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { Users, Heart, Target, Award } from "lucide-react";
+import TrustImage from "@assets/Trustphoto.jpg";
+import ReviewPhoto from "@assets/BOSTUBS.png";
 
 export default function About() {
   useEffect(() => {
@@ -33,7 +35,7 @@ export default function About() {
               About BYB Digital
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto" data-testid="text-about-hero-subtitle">
-              Empowering small businesses to thrive in the digital world through professional websites and comprehensive digital solutions.
+              Empowering growing businesses to thrive in the digital world through professional websites and comprehensive digital solutions.
             </p>
           </div>
         </div>
@@ -45,7 +47,7 @@ export default function About() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="fade-in">
               <img 
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                src={TrustImage} 
                 alt="Modern digital workspace with computers and design tools" 
                 className="rounded-2xl shadow-2xl w-full h-auto"
                 data-testid="img-about-workspace"
@@ -54,13 +56,13 @@ export default function About() {
 
             <div className="fade-in">
               <h2 className="text-3xl font-bold text-grey-dark mb-6" data-testid="text-about-main-title">
-                Empowering Small Businesses in the Digital World
+                Empowering Growing Businesses in the Digital World
               </h2>
               <p className="text-lg text-grey-text mb-6 leading-relaxed" data-testid="text-about-paragraph-1">
-                At BYB Digital, we understand that small businesses need more than just a website – they need a complete digital presence that builds trust and drives growth. Our team specializes in creating modern, professional websites that reflect your brand's unique personality and values.
+                At BYB Digital, we understand that growing businesses need more than just a website – they need a complete digital presence that builds trust and drives growth. Our team specializes in creating modern, professional websites that reflect your brand's unique personality and values.
               </p>
               <p className="text-lg text-grey-text mb-8 leading-relaxed" data-testid="text-about-paragraph-2">
-                We focus on affordability without compromising quality, ensuring every small business can compete in today's digital marketplace. From initial design to ongoing support, we're your partner in digital success.
+                We focus on affordability without compromising quality, ensuring every growing business can compete in today's digital marketplace. From initial design to ongoing support, we're your partner in digital success.
               </p>
 
               <div className="grid sm:grid-cols-2 gap-6">
@@ -106,7 +108,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-bold text-grey-dark mb-4" data-testid="text-value-title-mission">Our Mission</h3>
               <p className="text-grey-text leading-relaxed" data-testid="text-value-desc-mission">
-                To democratize professional web design and make high-quality digital solutions accessible to small businesses everywhere.
+                To democratize professional web design and make high-quality digital solutions accessible to growing businesses everywhere.
               </p>
             </div>
 
@@ -116,7 +118,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-bold text-grey-dark mb-4" data-testid="text-value-title-passion">Our Passion</h3>
               <p className="text-grey-text leading-relaxed" data-testid="text-value-desc-passion">
-                We're passionate about helping small businesses succeed online and building lasting relationships with our clients.
+                We're passionate about helping growing businesses succeed online and building lasting relationships with our clients.
               </p>
             </div>
 
@@ -140,17 +142,17 @@ export default function About() {
             <div className="text-center">
               <div className="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=200" 
+                  src={ReviewPhoto}
                   alt="Professional headshot of satisfied business owner" 
                   className="w-full h-full object-cover"
                   data-testid="img-testimonial-photo"
                 />
               </div>
               <blockquote className="text-xl lg:text-2xl text-grey-dark font-medium mb-6 max-w-4xl mx-auto" data-testid="text-testimonial-quote">
-                "BYB Digital transformed our online presence completely. Our new website not only looks professional but has increased our customer inquiries by 300%. The team was responsive, professional, and delivered exactly what we needed."
+                "BYB Digital transformed our online presence completely. Our new website not only looks professional but builds trust with our users. The BYB team was responsive, professional, and delivered exactly what we needed. Visit our website to experience the work done by BYB!"
               </blockquote>
-              <div className="text-primary font-semibold" data-testid="text-testimonial-name">Sarah Johnson</div>
-              <div className="text-grey-text" data-testid="text-testimonial-title">Owner, Local Bakery Co.</div>
+              <div className="text-primary font-semibold" data-testid="text-testimonial-name">BosTubs</div>
+              <div className="text-grey-text" data-testid="text-testimonial-title">www.BosTubs.co.za</div>
             </div>
           </div>
         </div>

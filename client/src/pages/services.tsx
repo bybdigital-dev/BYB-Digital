@@ -44,7 +44,7 @@ export default function Services() {
       {/* Services Grid */}
       <section className="py-20 bg-grey-light">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Service Card 1 */}
             <div className="service-card bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 fade-in" data-testid="card-service-website-design">
               <div className="w-16 h-16 bg-primary-light rounded-xl flex items-center justify-center mb-6">
@@ -55,33 +55,49 @@ export default function Services() {
                 Modern, responsive websites that look professional and convert visitors into customers. Built with the latest technologies and optimized for performance.
               </p>
               <ul className="space-y-2 text-sm text-grey-text mb-6">
+                
                 <li className="flex items-center" data-testid="text-service-feature-custom">
                   <Check className="w-4 h-4 text-primary mr-2" />
                   Custom Design
                 </li>
+
+                <li className="flex items-center" data-testid="text-service-feature-custom">
+                  <Check className="w-4 h-4 text-primary mr-2" />
+                  Includes domain registration
+                </li>
+                
                 <li className="flex items-center" data-testid="text-service-feature-responsive">
                   <Check className="w-4 h-4 text-primary mr-2" />
                   Mobile Responsive
                 </li>
-                <li className="flex items-center" data-testid="text-service-feature-seo">
+                
+                <li className="flex items-center" data-testid="text-service-feature-quality">
                   <Check className="w-4 h-4 text-primary mr-2" />
-                  SEO Optimized
+                  Professional Quality
                 </li>
-                <li className="flex items-center" data-testid="text-service-feature-performance">
+               
+                <li className="flex items-center" data-testid="text-service-feature-afordable">
                   <Check className="w-4 h-4 text-primary mr-2" />
-                  Fast Performance
+                  Affordable Pricing
                 </li>
+                
+                <li className="flex items-center" data-testid="text-service-feature-turnaround">
+                  <Check className="w-4 h-4 text-primary mr-2" />
+                  Fast Turnaround
+                </li>
+              
+              
               </ul>
-              <div className="text-2xl font-bold text-primary mb-2" data-testid="text-service-price-website">Starting at $1,299</div>
-              <div className="text-sm text-grey-text" data-testid="text-service-timeline-website">2-4 week delivery</div>
+              <div className="text-2xl font-bold text-primary mb-2" data-testid="text-service-price-website">Starting at R2,499</div>
+              <div className="text-sm text-grey-text" data-testid="text-service-timeline-website">1-2 week delivery</div>
             </div>
 
-            {/* Service Card 2 */}
+            {/* Service Card 2 
             <div className="service-card bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 fade-in" data-testid="card-service-branding">
               <div className="w-16 h-16 bg-primary-light rounded-xl flex items-center justify-center mb-6">
                 <Palette className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-grey-dark mb-4" data-testid="text-service-title-branding">Digital Branding</h3>
+              <h3 className="text-2xl font-bold text-grey-dark mb-4" data-testid="text-service-title-branding">Domain registration</h3>
               <p className="text-grey-text mb-6 leading-relaxed" data-testid="text-service-desc-branding">
                 Create a memorable brand identity that resonates with your target audience. From logos to complete brand guidelines.
               </p>
@@ -105,14 +121,14 @@ export default function Services() {
               </ul>
               <div className="text-2xl font-bold text-primary mb-2" data-testid="text-service-price-branding">Starting at $799</div>
               <div className="text-sm text-grey-text" data-testid="text-service-timeline-branding">1-2 week delivery</div>
-            </div>
+            </div>*/}
 
-            {/* Service Card 3 */}
+            {/* Service Card 3 
             <div className="service-card bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 fade-in" data-testid="card-service-hosting">
               <div className="w-16 h-16 bg-primary-light rounded-xl flex items-center justify-center mb-6">
                 <Shield className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-grey-dark mb-4" data-testid="text-service-title-hosting">Hosting & SSL</h3>
+              <h3 className="text-2xl font-bold text-grey-dark mb-4" data-testid="text-service-title-hosting">Website Hosting</h3>
               <p className="text-grey-text mb-6 leading-relaxed" data-testid="text-service-desc-hosting">
                 Reliable monthly hosting packages with SSL certificates included. Keep your website secure and fast with our managed hosting.
               </p>
@@ -136,37 +152,37 @@ export default function Services() {
               </ul>
               <div className="text-2xl font-bold text-primary mb-2" data-testid="text-service-price-hosting">$29/month</div>
               <div className="text-sm text-grey-text" data-testid="text-service-timeline-hosting">Monthly hosting package</div>
-            </div>
+            </div>*/}
 
             {/* Service Card 4 */}
             <div className="service-card bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 fade-in" data-testid="card-service-support">
               <div className="w-16 h-16 bg-primary-light rounded-xl flex items-center justify-center mb-6">
                 <Headphones className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-grey-dark mb-4" data-testid="text-service-title-support">Ongoing Digital Support</h3>
+              <h3 className="text-2xl font-bold text-grey-dark mb-4" data-testid="text-service-title-support">Hosting & Digital Support</h3>
               <p className="text-grey-text mb-6 leading-relaxed" data-testid="text-service-desc-support">
-                Keep your digital presence running smoothly with our maintenance, updates, and technical support services.
+                Keep your digital presence running smoothly with secure hosting and ongoing support — all in one affordable monthly package.
               </p>
               <ul className="space-y-2 text-sm text-grey-text mb-6">
                 <li className="flex items-center" data-testid="text-service-feature-updates">
                   <Check className="w-4 h-4 text-primary mr-2" />
-                  Regular Updates
+                  Reliable Website Hosting
                 </li>
                 <li className="flex items-center" data-testid="text-service-feature-security">
                   <Check className="w-4 h-4 text-primary mr-2" />
-                  Security Monitoring
+                  Content and/or Image Updates (Up to 3 per month)
                 </li>
                 <li className="flex items-center" data-testid="text-service-feature-technical">
                   <Check className="w-4 h-4 text-primary mr-2" />
-                  Technical Support
+                  Fast Loading Speeds
                 </li>
                 <li className="flex items-center" data-testid="text-service-feature-content">
                   <Check className="w-4 h-4 text-primary mr-2" />
-                  Content Updates
+                  Technical Support
                 </li>
               </ul>
-              <div className="text-2xl font-bold text-primary mb-2" data-testid="text-service-price-support">$99/month</div>
-              <div className="text-sm text-grey-text" data-testid="text-service-timeline-support">Ongoing monthly service</div>
+              <div className="text-2xl font-bold text-primary mb-2" data-testid="text-service-price-support">R249/month</div>
+              <div className="text-sm text-grey-text" data-testid="text-service-timeline-support">Month-to-month service</div>
             </div>
           </div>
 

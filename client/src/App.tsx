@@ -10,10 +10,13 @@ import Services from "@/pages/services";
 import WhyChooseUs from "@/pages/why-choose-us";
 import Contact from "@/pages/contact";
 import Layout from "@/components/layout";
+import ScrollToTop from "@/components/scrolltotop";
+
 
 function Router() {
   return (
     <Layout>
+      <ScrollToTop />
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />

@@ -3,6 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "@assets/BYB_BuildYourBrand_Logo.png";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -24,11 +25,14 @@ export default function Navigation() {
     <nav className="fixed w-full top-0 bg-white/95 backdrop-blur-sm shadow-sm z-50 border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
+          
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2" data-testid="link-home-logo">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary-dark rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">B</span>
-            </div>
+            <img
+              src={logo}
+              alt="BYB Logo"
+              className="w-10 h-10 object-contain rounded-full"
+            />
             <span className="font-bold text-xl text-grey-dark">BYB Digital</span>
           </Link>
           
