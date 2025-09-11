@@ -110,22 +110,18 @@ lekker man dankie
           </div>
 
           {/* Trust indicators */}
-          <div className="mt-16 fade-in">
-            <p className="text-white text-sm font-medium mb-4" data-testid="text-trust-indicator">
-              TRUSTED BY GROWING BUSINESSES
-            </p>
-            <div className="flex justify-center items-center space-x-8 opacity-80 text-white">
-              <div className="text-2xl font-bold" data-testid="text-clients-count">50+</div>
-              <div className="w-1 h-1 bg-white rounded-full"></div>
-              <div className="text-sm">Satisfied Clients</div>
-              <div className="w-1 h-1 bg-white rounded-full"></div>
-              <div className="flex items-center">
-                <span className="text-2xl font-bold mr-1">5</span>
-                <Star className="w-5 h-5 text-yellow-300 fill-current" />
-              </div>
-              <div className="w-1 h-1 bg-white rounded-full"></div>
-              <div className="text-sm">Average Rating</div>
+          <div className="flex flex-wrap justify-center items-center gap-4 opacity-80 text-white text-center">
+            <div className="mt-20 md:mt-20 fade-in"></div>
+            <div className="text-2xl font-bold" data-testid="text-clients-count">50+</div>
+            <div className="w-1 h-1 bg-white rounded-full"></div>
+            <div className="text-sm">Satisfied Clients</div>
+            <div className="w-1 h-1 bg-white rounded-full"></div>
+            <div className="flex items-center">
+              <span className="text-2xl font-bold mr-1">5</span>
+              <Star className="w-5 h-5 text-yellow-300 fill-current" />
             </div>
+            <div className="w-1 h-1 bg-white rounded-full"></div>
+            <div className="text-sm">Average Rating</div>
           </div>
         </div>
       </section>
