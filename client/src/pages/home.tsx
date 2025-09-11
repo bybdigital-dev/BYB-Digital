@@ -108,22 +108,30 @@ lekker man dankie
               </Link>
             </div>
           </div>
-
+                 
           {/* Trust indicators */}
-          <div className="flex flex-wrap justify-center items-center gap-2 opacity-80 text-white text-center">
-            <div className="mt-20 md:mt-20 fade-in"></div>
-            <div className="text-2xl font-bold" data-testid="text-clients-count">50+</div>
-            <div className="w-1 h-1 bg-white rounded-full"></div>
-            <div className="text-sm">Satisfied Clients</div>
-            <div className="w-1 h-1 bg-white rounded-full"></div>
-            <div className="flex items-center">
-              <span className="text-2xl font-bold mr-1">5</span>
-              <Star className="w-5 h-5 text-yellow-300 fill-current" />
+          <div className="fade-in w-full px-4 py-8 md:py-16">
+            <p
+              className="text-white text-sm font-medium mb-6 text-center"
+              data-testid="text-trust-indicator"
+            >
+              TRUSTED BY GROWING BUSINESSES
+            </p>
+
+              <div className="flex flex-wrap justify-center items-center gap-1 opacity-80 text-white text-center">
+                <div className="text-2xl font-bold" data-testid="text-clients-count">50+</div>
+                <div className="w-1 h-1 bg-white rounded-full"></div>
+                <div className="text-sm">Satisfied Clients</div>
+                <div className="w-1 h-1 bg-white rounded-full"></div>
+                <div className="flex items-center">
+                  <span className="text-2xl font-bold mr-1">5</span>
+                  <Star className="w-5 h-5 text-yellow-300 fill-current" />
+                </div>
+                <div className="w-1 h-1 bg-white rounded-full"></div>
+                <div className="text-sm">Average Rating</div>
             </div>
-            <div className="w-1 h-1 bg-white rounded-full"></div>
-            <div className="text-sm">Average Rating</div>
           </div>
-        </div>
+          </div>
       </section>
 
 
