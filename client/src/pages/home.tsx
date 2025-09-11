@@ -120,9 +120,9 @@ lekker man dankie
 
             <ul className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 opacity-80 text-white">
               {/* Clients */}
-              <li className="flex items-baseline">
+              <li className="flex items-center">
                 <span className="text-xl sm:text-2xl font-bold leading-none" data-testid="text-clients-count">50+</span>
-                <span className="ml-2 text-s sm:text-sm">Satisfied Clients</span>
+                <span className="ml-2 text-base sm:text-base">Satisfied Clients</span>
               </li>
 
               {/* Divider */}
@@ -132,7 +132,7 @@ lekker man dankie
               <li className="flex items-center">
                 <span className="text-xl sm:text-2xl font-bold mr-1 leading-none">5</span>
                 <Star className="w-5 h-5 text-yellow-300 fill-current" />
-                <span className="ml-2 text-s sm:text-sm">Average Rating</span>
+                <span className="ml-2 text-base sm:text-base">Average Rating</span>
               </li>
             </ul>
           </div>
