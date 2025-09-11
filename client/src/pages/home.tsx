@@ -110,26 +110,31 @@ lekker man dankie
           </div>
                  
           {/* Trust indicators */}
-          <div className="fade-in w-full px-4 py-8 md:py-16">
+          <div className="fade-in w-full px-4 py-8 md:py-16 overflow-visible">
             <p
-              className="text-white text-sm font-medium mb-6 text-center"
+              className="text-white text-xs sm:text-sm font-medium mb-6 text-center"
               data-testid="text-trust-indicator"
             >
               TRUSTED BY GROWING BUSINESSES
             </p>
 
-              <div className="flex flex-wrap justify-center items-center gap-1 opacity-80 text-white text-center">
-                <div className="text-2xl font-bold" data-testid="text-clients-count">50+</div>
-                <div className="w-1 h-1 bg-white rounded-full"></div>
-                <div className="text-sm">Satisfied Clients</div>
-                <div className="w-1 h-1 bg-white rounded-full"></div>
-                <div className="flex items-center">
-                  <span className="text-2xl font-bold mr-1">5</span>
-                  <Star className="w-5 h-5 text-yellow-300 fill-current" />
-                </div>
-                <div className="w-1 h-1 bg-white rounded-full"></div>
-                <div className="text-sm">Average Rating</div>
-            </div>
+            <ul className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 opacity-80 text-white">
+              {/* Clients */}
+              <li className="flex items-baseline">
+                <span className="text-xl sm:text-2xl font-bold leading-none" data-testid="text-clients-count">50+</span>
+                <span className="ml-2 text-s sm:text-sm">Satisfied Clients</span>
+              </li>
+
+              {/* Divider */}
+              <li className="hidden xs:block w-px h-4 bg-white/60" aria-hidden="true"></li>
+
+              {/* Rating */}
+              <li className="flex items-center">
+                <span className="text-xl sm:text-2xl font-bold mr-1 leading-none">5</span>
+                <Star className="w-5 h-5 text-yellow-300 fill-current" />
+                <span className="ml-2 text-s sm:text-sm">Average Rating</span>
+              </li>
+            </ul>
           </div>
           </div>
       </section>
