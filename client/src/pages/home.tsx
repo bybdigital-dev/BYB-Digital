@@ -110,7 +110,7 @@ lekker man dankie
           </div>
 
           {/* Trust indicators */}
-          <div className="flex flex-wrap justify-center items-center gap-4 opacity-80 text-white text-center">
+          <div className="flex flex-wrap justify-center items-center gap-2 opacity-80 text-white text-center">
             <div className="mt-20 md:mt-20 fade-in"></div>
             <div className="text-2xl font-bold" data-testid="text-clients-count">50+</div>
             <div className="w-1 h-1 bg-white rounded-full"></div>
