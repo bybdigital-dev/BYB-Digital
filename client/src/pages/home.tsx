@@ -132,7 +132,7 @@ lekker man dankie
               <li className="flex items-center">
                 <span className="text-xl sm:text-2xl font-bold mr-1 leading-none">5</span>
                 <Star className="w-5 h-5 text-yellow-300 fill-current" />
-                <span className="ml-2 text-base sm:text-base">Average Rating</span>
+                <span className="ml-2 text-base sm:text-base">Average Ratings</span>
               </li>
             </ul>
           </div>
