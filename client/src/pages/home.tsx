@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "wouter"; 
 import { Button } from "@/components/ui/button"; 
 import { Star, Users, ArrowRight } from "lucide-react"; 
-import BackgroundImage from "@assets/bg2.png";
+import BackgroundImage from "@assets/bg2.jpg";
 
 export default function Home() { 
   useEffect(() => { 
