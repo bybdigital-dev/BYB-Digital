@@ -24,7 +24,7 @@ function AppRoutes() {
       <ScrollToTop />
       <Switch>
         {/* handle first load before the hash exists */}
-        <Route path="" component={Home} />
+        {/*<Route path="" component={Home} /> */}
         <Route path="/" component={Home} />
 
         <Route path="/about" component={About} />
