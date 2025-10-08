@@ -184,7 +184,7 @@
                         <div>
                           <h4 className="font-semibold text-grey-dark mb-1">Call Us</h4>
                           <p className="text-grey-text">072 270 6959 / 079 075 6571</p>
-                          <p className="text-sm text-grey-text">Mon-Fri, 6AM-6PM EST</p>
+                          
                         </div>
                       </div>
 
